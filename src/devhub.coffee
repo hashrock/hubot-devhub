@@ -14,6 +14,8 @@ class Devhub extends Adapter
     @bot = new DevhubStreaming options, @robot
 
     @bot.on 'message', (userId, message) =>
+      name_re = new RegExp("^[ ]*@" + options.name + "さん");
+      message = message.replace(name_re, options.name)
       user = @robot.brain.userForId userId
       @receive new TextMessage user, message
 
@@ -31,9 +33,9 @@ class DevhubStreaming extends EventEmitter
 
 
   send: (message) ->
-    @socket.emit "message", {name:@name, msg:message}
+    @socket.emit "message", {name:@name, msg:message, avatar:"img/hubot.png" }
 
   listen: ->
     @socket.on "message", (item)=>
       @emit 'message', item.name, item.msg
-    @socket.emit 'name', {name:@name}
+    @socket.emit 'name', {name:@name, avatar:"img/hubot.png"}
