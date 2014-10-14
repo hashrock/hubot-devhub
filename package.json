@@ -1,37 +1,37 @@
 {
-    "name": "hubot-devhub",
-    "version": "1.0.0",
-    "author": {
-        "name": "hashrock"
-    },
-    "keywords": [
-        "github hubot DevHub adapter"
-    ],
-    "description": "An DevHub adapter for hubot",
-    "licenses": [
-        {
-            "type": "MIT",
-            "url": "http://github.com/tombell/hubot-twilio/raw/master/LICENSE"
-        }
-    ],
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/hashrock/hubot-devhub.git"
-    },
-    "devDependencies": {
-        "coffee-script": "1.1.3"
-    },
-    "main": "./src/devhub",
-    "engine": "node > 0.6.0 < 0.7.0",
-    "engines": {
-        "node": "*"
-    },
-    "readmeFilename": "README.md",
-    "bugs": {
-        "url": "https://github.com/hashrock/hubot-devhub/issues"
-    },
-    "homepage": "https://github.com/hashrock/hubot-devhub",
-    "dependencies": {
-        "socket.io-client": "^0.9.9"
+  "name": "hubot-devhub",
+  "version": "1.0.1",
+  "author": {
+    "name": "hashrock"
+  },
+  "keywords": [
+    "github hubot DevHub adapter"
+  ],
+  "description": "An DevHub adapter for hubot",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/tombell/hubot-twilio/raw/master/LICENSE"
     }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hashrock/hubot-devhub.git"
+  },
+  "devDependencies": {
+    "coffee-script": "1.1.3"
+  },
+  "main": "./src/devhub",
+  "engine": "node > 0.6.0 < 0.7.0",
+  "engines": {
+    "node": "*"
+  },
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/hashrock/hubot-devhub/issues"
+  },
+  "homepage": "https://github.com/hashrock/hubot-devhub",
+  "dependencies": {
+    "socket.io-client": "^0.9.9"
+  }
 }
