@@ -5,7 +5,10 @@
     "name": "hashrock"
   },
   "keywords": [
-    "github hubot DevHub adapter"
+    "github",
+    "hubot",
+    "DevHub",
+    "adapter"
   ],
   "description": "An DevHub adapter for hubot",
   "licenses": [
