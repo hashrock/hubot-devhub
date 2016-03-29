@@ -35,6 +35,6 @@
   },
   "homepage": "https://github.com/hashrock/hubot-devhub",
   "dependencies": {
-    "socket.io-client": "^0.9.9"
+    "socket.io-client": "1.4.5"
   }
 }
